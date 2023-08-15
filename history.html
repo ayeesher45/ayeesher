@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d3c9fc67a3.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" >
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <div class="container-fluid p-0">
-        <nav>
-                <div class="barmobile">
-                <i class="fa fa-bars"></i>
-                </div>
-                <div class="nav-bar">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="history.html">HISTORY</a></li>
-                    <li><a href="places.html">PLACE TO VISIT</a></li>
-                </ul>
-            </div>
-               </nav> 
+        <main>
+            <nav id="nav-mobile">
+                <div class="bar"><i class="fa fa-bars"></i></div>
+              
+                  <ul id="ul-mobile">
+                  <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                  <li><i class="fa fa-history"></i><a href="history.html">History</a></li>
+                  <li><i class="fa fa-mountain"></i><a href="places.html">Visit</a></li>
+                  </ul>
+              </nav>
+            <div><h3><i class="fa fa-city"></i> ALIERO</h3></div>
+            <li><i class="fa fa-map"></i><a href="https://mapcarta.com/aliero">MAP</a></li>     
+        </main>
         <section class="hit1">
                <section class="hit">
             <h1>Introduction</h1>
@@ -130,5 +133,19 @@
                </footer>
         </div>
     </div>
+    <script>
+        let bars = document.querySelector("#nav-mobile");
+        let ul = document.querySelector("#ul-mobile");
+        let aysha = true;
+    bars.addEventListener("click",()=>{
+        if(!!aysha){
+            ul.style.height="145px";
+            aysha = false;
+        }else{
+            ul.style.height="0px";
+            aysha = true;
+        }
+        });
+    </script>
 </body>
 </html>
