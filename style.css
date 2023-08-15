@@ -14,11 +14,11 @@ main{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding: 40px;
+    padding: 0px;
 }
 i.fa-bars{
     font-size:25px;
-    padding:25px;
+    padding:20px;
     transition:.1s;
 }
 i.fa-bars:active{
@@ -26,7 +26,7 @@ i.fa-bars:active{
 }
 #ul-mobile{
     width:180px;
-    height:160px;
+    height:0px;
     overflow:hidden;
     background:#11001b;
     text-align:center;
@@ -35,24 +35,27 @@ i.fa-bars:active{
     position: absolute;
     padding:0 20px;
 }
-li i{
+main li i{
     padding:10px;
     font-size:20px;
 }
-li{
+main li{
     list-style-type:none;
     transition:.2s;
     padding:7px;
 }
-li:hover{
+main li:hover{
     background:rgba(255,255,255,.3);
     scale:0.9;
 }
-li a{
+main li a{
     text-decoration:none;
     color:#fefefe;
     font-size:19px;
     cursor:pointer;
+}
+main h3{
+    font-size: 22px;
 }
 .barner{
     background-image: url(image/Screenshot_20230808-204508.jpg) ;
@@ -67,6 +70,7 @@ li a{
     width: 100%;
     text-align: center;
     color:#fefefe;
+    font-size:20px ;
 }
 .welc h1{
     color:#fefefe;
@@ -79,7 +83,7 @@ li a{
     font-weight: bolder;
 }
 .welc .wel{
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     margin: 0;
     padding: 0;
