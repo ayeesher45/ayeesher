@@ -247,7 +247,7 @@ main h3{
 }
 .img00 img{
     width: 80%;
-    height: 80%;
+    height: 120%;
     object-fit:contain;
 
 }
