@@ -89,6 +89,7 @@ nav{
     background-size: contain;
     display: flex;
     justify-content:center;
+    margin-bottom: 20px;
   
 }
 .welc{
@@ -125,7 +126,7 @@ nav{
 }
 .img0{
     display: flex;
-    margin-top: 90px;
+    margin-top: 20px;
     width: 100%;
     justify-content:space-around;
 }
@@ -142,10 +143,10 @@ nav{
 }
 .bri{
     background-color:rgb(243, 242, 242) ;
-    padding: 50px;
+    padding: 20px;
 }
 .img2{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .pic img{
     width: 200px;
@@ -155,7 +156,7 @@ nav{
 .pic{
     display: flex;
     justify-content:space-evenly;
-    margin: 20px;
+    margin:10px;
 }
 .pic1{
     background-color:rgb(243, 242, 242) ;
@@ -180,7 +181,7 @@ nav{
 }
 .hit{
     background-color: beige;
-    margin: 30px;
+    margin: 5px;
     text-align: center;
 }
 .hit h1{
@@ -189,30 +190,33 @@ nav{
     text-decoration: underline;
     margin-bottom: 10px;
     font-weight: 200px;
-    text-align: start;
+    text-align: center;
     padding: 5px;
 }
 .hit p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: start;
+    text-align: justify;
     padding: 10px;
 }
 .hit li{
     text-decoration: none;
     list-style-type: style ;
     margin: 20px;
-    text-align: start;
+    text-align:start;
 
 }
 .hit img{
+    width: 60%;
+    height:60% ;
     margin: 40px;
+    object-fit: contain;
 }
 .map{
     background-color: rgb(243, 242, 242) ;
     margin-top: 20px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     
 }
 .map h1{
@@ -228,7 +232,7 @@ nav{
 
 }
 .foot{
-    background: linear-gradient(white,black);
+    background: linear-gradient(grey,darkgrey);
     margin-top: 60px;
     text-align: center;
 }
@@ -240,7 +244,7 @@ nav{
 }
 .foot h1{
     font-size: 45px;
-    padding-top: 50px;
+    padding-top: 80px;
     font-weight: 200px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -248,12 +252,7 @@ nav{
      font-size: 20px;
      font-style: italic;
      font-weight: bold;
-     padding-bottom: 20px;
-}
-.foot1 a{
-    color: white;
-    display: flex;
-    flex-direction:column ;
+     padding-bottom:0;
 }
 .copy p{
     color: black;
@@ -274,12 +273,14 @@ nav{
      margin-bottom: 20px;
 }
 .img00 p{
+    font-size: 15px;
    margin: 20px;
    padding-bottom: 20px;
 }
 .img00 img{
-    width: 60%;
-    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    object-fit:contain;
 
 }
 .hey{
@@ -290,7 +291,7 @@ nav{
 /* #im{
     margin: 0 10px;
 } */
-@media  screen and (max-width:768px) {
+/* @media  screen and (max-width:768px) {
     nav{
         display: block;
     }
@@ -307,7 +308,7 @@ nav{
         top: 75px;
         height: auto;
         padding: 10px 0;
-        background:linear-gradient(blue, deepskyblue);
+        background-color:white;
     }
     .nav-bar li{
       padding:5px 0 5px 16px;
@@ -329,4 +330,4 @@ nav{
     i.fa-bars:hover{
         background: rgba(255,255,255,0.4);
     }
-}
+} */
