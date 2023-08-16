@@ -62,7 +62,7 @@ main h3{
 }
 .barner{
     background-image: url(image/Screenshot_20230808-204508.jpg) ;
-    background-size: contain;
+    background-size:contain;
     justify-content:center;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -74,6 +74,17 @@ main h3{
     text-align: center;
     color:#fefefe;
     font-size:20px ;
+    padding: 50px;
+    transition: all .6s;
+}
+.welc1{
+    background-color:rgb(255, 254, 254) ;
+    width: 100%;
+    text-align: center;
+    color:#11001b;
+    font-size:20px ;
+    padding: 30px;
+    margin-bottom: 10px;
 }
 .welc h1{
     color:#fefefe;
@@ -100,12 +111,14 @@ main h3{
     width: 300px;
     height: 300px;
     border-radius: 150px;
+    padding: 10px;
 }
 .img0{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     justify-content:space-around;
+    
 }
 .img0  h1{
     background-color:#11101b;
@@ -119,7 +132,7 @@ main h3{
     text-align: center;
 }
 .bri{
-    background-color:rgb(243, 242, 242) ;
+    background-color:rgb(255, 254, 254) ;
     padding: 20px;
 }
 .img2{
@@ -130,13 +143,8 @@ main h3{
     height: 200px;
     object-fit: cover;
 }
-.pic{
-    display: flex;
-    justify-content:space-evenly;
-    margin:10px;
-}
 .pic1{
-    background-color:rgb(243, 242, 242) ;
+    background-color:rgb(255, 254, 254)  ;
     padding: 10px;
 }
 .pic1 h2{
@@ -154,10 +162,10 @@ main h3{
     padding: 20px;
 }
 .hit1{
-    background-color:rgb(212, 205, 205);
+    background-color: rgb(243, 242, 242);
 }
 .hit{
-    background-color:rgb(243, 242, 242);
+    background-color:rgb(255, 254, 254) ;
     margin: 5px;
     text-align: center;
 }
@@ -190,7 +198,7 @@ main h3{
     object-fit: contain;
 }
 .map{
-    background-color: rgb(243, 242, 242) ;
+    background-color:rgb(255, 254, 254)  ;
     margin-top: 20px;
     text-align: center;
     margin: 10px;
@@ -237,7 +245,7 @@ main h3{
     text-align: center;
 }
 .place{
-    background-color: rgb(252, 245, 245);
+    background-color: rgb(255, 254, 254) ;
 }
 .img00{
     font-size: 20px;
@@ -339,7 +347,7 @@ main h3{
     font-size:10px ;
 }
 .welc h1{
-    font-size: 10px;
+    font-size: 15px;
 }
 .welc p{
  font-size: 10px;
@@ -356,7 +364,7 @@ main h3{
     border-radius: 150px;
 }
 .img0  h1{
-    font-size: 10px;
+    font-size: 15px;
 }
 i.fa-bars{
     font-size:15px;
@@ -390,6 +398,14 @@ font-size: 12px;
     font-size:12px;
 }
 .copy p{
+    font-size: 10px;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.hit li{
     font-size: 10px;
 }
 }
