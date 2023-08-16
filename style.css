@@ -55,7 +55,10 @@ main li a{
     cursor:pointer;
 }
 main h3{
-    font-size: 22px;
+    font-size: 25px;
+}
+.fmap {
+    font-size:17px;
 }
 .barner{
     background-image: url(image/Screenshot_20230808-204508.jpg) ;
@@ -168,7 +171,7 @@ main h3{
     padding: 5px;
 }
 .hit p{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     padding: 10px;
@@ -211,21 +214,27 @@ main h3{
     text-align: center;
 }
 .foot h1{
+    color:#11001b;
     font-size: 45px;
     padding-top: 80px;
     font-weight: 200px;
     font-family: 'Times New Roman', Times, serif;
 }
 .foot p{
+    color: #fefefe;
      font-size: 20px;
      font-style: italic;
      font-weight: bold;
      padding-bottom:0;
 }
+.copy{
+    background-color: #fefefe;
+}
 .copy p{
-    color: black;
+    color:#11001b;
     font-size: 20px;
-    padding-bottom: 8rem;
+    padding-bottom: 5px;
+    text-align: center;
 }
 .place{
     background-color: rgb(252, 245, 245);
@@ -251,8 +260,136 @@ main h3{
     object-fit:contain;
 
 }
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page ul li a {
+    font-size: 20px;
+    padding: 30px;
+}
 .hey{
-    font-size:50px ;
+    font-size:40px ;
     text-align: center;
     margin: 30px;
+}
+.about{
+    padding-bottom: 40px;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#fefefe;
+}
+.about p{
+    font-size: 20px;
+    color: #fefefe;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.about h5{
+    color:#fefefe;
+    font-weight: bold;
+}
+@media only screen and (max-width:768px) {
+    .img00 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .img00 p{
+        font-size: 12px;
+    }
+    .img00 h1{
+        font-size: 15px;
+    }
+    .foot p{
+        font-size: 12px;
+    }
+    .foot h1{
+        font-size: 20px;
+    }
+    .map h1{
+        font-size:20px;
+    }
+    .map img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .hit h1{
+        font-size: 25px;  
+    }
+    .hit p{
+        font-size: 10px;
+    }
+.pic1 h2{
+    font-size: 12px;
+}
+.pic1 p{
+    font-size: 10px;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.welc{
+    font-size:10px ;
+}
+.welc h1{
+    font-size: 10px;
+}
+.welc p{
+ font-size: 10px;
+}
+.welc .wel{
+    font-size: 30px;
+}
+.welc .well{
+    font-size: 10px;
+}
+.img0 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.img0  h1{
+    font-size: 10px;
+}
+i.fa-bars{
+    font-size:15px;
+}
+main li i{
+    font-size:15px;
+}
+main li a{
+    font-size:15px;
+}
+main h3{
+    font-size: 15px;
+}
+.hey{
+    font-size: 20px;
+}
+.about h2{
+    font-size: 15px;
+}
+.about p{
+    font-size: 10px;
+}
+.about h5{
+font-size: 12px;
+}
+#page ul li a {
+    font-size: 10px;
+    padding: 10px;
+}
+.fmap {
+    font-size:12px;
+}
+.copy p{
+    font-size: 10px;
+}
 }
