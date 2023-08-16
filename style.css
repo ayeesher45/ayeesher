@@ -35,6 +35,13 @@ i.fa-bars:active{
     position: absolute;
     padding:0 20px;
 }
+.fa-map{
+    font-size: 15px;
+    padding:0 2px;
+}
+.fmap {
+    font-size:15px;
+}
 main li i{
     padding:10px;
     font-size:20px;
@@ -55,10 +62,7 @@ main li a{
     cursor:pointer;
 }
 main h3{
-    font-size: 25px;
-}
-.fmap {
-    font-size:17px;
+    font-size: 35px;
 }
 .barner{
     background-image: url(image/Screenshot_20230808-204508.jpg) ;
@@ -376,7 +380,7 @@ main li a{
     font-size:15px;
 }
 main h3{
-    font-size: 15px;
+    font-size: 19px;
 }
 .hey{
     font-size: 20px;
@@ -394,6 +398,7 @@ font-size: 12px;
     font-size: 10px;
     padding: 10px;
 }
+
 .fmap {
     font-size:12px;
 }
