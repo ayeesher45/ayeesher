@@ -20,31 +20,19 @@ i.fa-bars{
     font-size:25px;
     padding:20px;
     transition:.1s;
+    display: none;
 }
-i.fa-bars:active{
-    background:rgba(255,255,255,.2);
-}
-#ul-mobile{
-    width:180px;
-    height:0px;
-    overflow:hidden;
-    background:#11001b;
-    text-align:center;
-    color:#fefefe;
-    transition:.4s;
-    position: absolute;
-    padding:0 20px;
-}
-.fa-map{
-    font-size: 15px;
-    padding:0 2px;
-}
-.fmap {
-    font-size:15px;
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+    font-size:22px ;
+    padding-right: 0px;
 }
 main li i{
-    padding:10px;
-    font-size:20px;
+    padding:0px;
+    font-size:0px;
 }
 main li{
     list-style-type:none;
@@ -54,12 +42,18 @@ main li{
 main li:hover{
     background:rgba(255,255,255,.3);
     scale:0.9;
+    border-radius: 15px;
 }
 main li a{
     text-decoration:none;
     color:#fefefe;
-    font-size:19px;
+    font-size:20.5px;
     cursor:pointer;
+    width:200px;
+    height:0px;
+    transition:.4s;
+    padding:5px 20px 5px 5px;
+    text-align: center;
 }
 main h3{
     font-size: 35px;
@@ -372,6 +366,29 @@ main h3{
 }
 i.fa-bars{
     font-size:15px;
+    padding:20px;
+    transition:.1s;
+    display: block;
+}
+i.fa-bars:active{
+    background:rgba(255,255,255,.2);
+}
+#ul-mobile{
+    width:180px;
+    height:0px;
+    overflow:hidden;
+    background:#11001b;
+    text-align:center;
+    color:#fefefe;
+    transition:.4s;
+    position: absolute;
+    padding:0 20px;
+}
+ul{
+    display:inline;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 25px;
 }
 main li i{
     font-size:15px;
